@@ -3,23 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_consumos_diarios">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.dailyfinance.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_entradas_salidas"
+        android:name="com.example.dailyfinance.ui.entradas.EntradasSalidasFragment"
+        android:label="@string/menu_entradas_salidas"
+        tools:layout="@layout/fragment_entradas_salidas" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.dailyfinance.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_presupuesto_quincenal"
+        android:name="com.example.dailyfinance.ui.presupuesto.PresupuestoQuincenalFragment"
+        android:label="@string/menu_presupuesto_quincenal"
+        tools:layout="@layout/fragment_presupuesto_quincenal"/>
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.dailyfinance.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_presupuesto_largo_plazo"
+        android:name="com.example.dailyfinance.ui.presupuesto.PresupuestoLargoPlazoFragment"
+        android:label="@string/menu_presupuesto_largo_plazo"
+        tools:layout="@layout/fragment_presupuesto_largo_plazo"/>
+
+    <fragment
+        android:id="@+id/nav_consumos_diarios"
+        android:name="com.example.dailyfinance.ui.consumos.ConsumosDiariosFragment"
+        android:label="@string/menu_consumos_diarios"
+        tools:layout="@layout/fragment_consumos_diarios">
+        <action
+            android:id="@+id/action_nav_consumos_diarios_self"
+            app:destination="@id/nav_consumos_diarios" />
+    </fragment>
 </navigation>

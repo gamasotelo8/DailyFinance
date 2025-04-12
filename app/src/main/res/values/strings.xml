@@ -10,4 +10,8 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_entradas_salidas">Entradas y Salidas</string>
+    <string name="menu_presupuesto_quincenal">Presupuesto Quincenal</string>
+    <string name="menu_presupuesto_largo_plazo">Presupuesto Largo Plazo</string>
+    <string name="menu_consumos_diarios">Consumo Diario</string>
 </resources>

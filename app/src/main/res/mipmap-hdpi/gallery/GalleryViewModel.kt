@@ -1,4 +1,4 @@
-package com.example.dailyfinance.ui.gallery
+package `mipmap-hdpi`.gallery
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

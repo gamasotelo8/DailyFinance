@@ -5,16 +5,20 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_consumos_diarios"
+            android:icon="@drawable/ic_menu_consumos_diarios"
+            android:title="@string/menu_consumos_diarios" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_entradas_salidas"
+            android:icon="@drawable/ic_menu_entradas_salidas"
+            android:title="@string/menu_entradas_salidas" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_presupuesto_quincenal"
+            android:icon="@drawable/ic_menu_presupuesto_quincenal"
+            android:title="@string/menu_presupuesto_quincenal" />
+        <item
+            android:id="@+id/nav_presupuesto_largo_plazo"
+            android:icon="@drawable/ic_menu_presupuesto_largo_plazo"
+            android:title="@string/menu_presupuesto_largo_plazo" />
     </group>
 </menu>
